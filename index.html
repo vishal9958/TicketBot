@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBot</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/qr-code-styling/lib/qr-code-styling.min.js"></script>
+
+
+</head>
+<body>
+    <div class="main-div">
+        
+        <div class="menuToggle">
+            <i class='bx bx-help-circle'></i>
+        </div>
+        <div class="container">
+            <div class="top-part">
+                <div class="agent-details">
+                    <img src="bot.png" alt="">
+                    <div class="agent-text">
+                        <h3> Team Json</h3>
+                        <p>Agent<span>(Online)</span></p>
+                    </div>
+                </div>
+                <i class='bx bx-x'></i>
+            </div>
+            <!-- Chat Messages Section -->
+            <div class="chart-section">
+                <!-- Chat messages will be dynamically added here -->
+            </div>
+            <!-- Bottom Input Section -->
+            <div class="bottom-section">
+                <i class='bx bxs-camera'></i>
+                <textarea name="" id="" cols="30" rows="2" placeholder="Send a Message."></textarea>
+                <i class='bx bxs-send'></i>
+            </div>
+        </div>
+    </div>
+    <div id="qrcode"></div>
+    
+
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
+    
